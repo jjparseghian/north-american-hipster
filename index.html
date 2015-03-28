@@ -12,15 +12,24 @@
     <script src="public/libs/keyboard.js"></script>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
   </head>
   <body>
-    <div id='messagesDiv'></div>
-	    <input type='text' id='nameInput' placeholder='Name'>
-	    <input type='text' id='messageInput' placeholder='Message'>
-    
+    <div class="container">
+      <div id='messagesDiv'></div>
+      <div class="row"></div>
+      <div class="col-lg-6">
+        <input class="form-control" type='text' id='nameInput' placeholder='Name'>
+      </div>
+      <div class="col-lg-6">
+	    <input class="form-control" type='textfield' id='messageInput' placeholder='Message'>
+      </div>
+
+    </div>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="public/js/firebase.js"></script>
+    <script src="public/js/splitter.js"></script>
 
     <script src="public/js/three.min.js"></script>
     <script src="public/js/visualization.js"></script>
