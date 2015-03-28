@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
- var firebase = new Firebase('https://north-american-hipster.firebaseio.com/');
+ var firebase = new Firebase("https://saysong.firebaseio.com");
       $('#messageInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var name = $('#nameInput').val();
@@ -16,6 +16,7 @@ displayChatMessage(message.name, message.text);
       function displayChatMessage(name, text) {
         $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+        $('<em/>').prepend('<i class="fa fa-music"></i>');
       };
 
 
