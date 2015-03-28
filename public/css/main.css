@@ -13,14 +13,13 @@ body{
 }
 
 .row{
-	  margin-top: 20px;
+	  margin: 20px 0 ;
 }
 
 h1{
 	font-family: 'Oswald', sans-serif;
-	font-size: 4em;
+	font-size: 5em;
 	color: #fff;
 	background-color: #000;
 	text-align: center;
-
 }
