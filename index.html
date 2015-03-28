@@ -1,39 +1,42 @@
 <html>
-  <head>
+
+<head>
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-
     <script src="public/js/three.min.js"></script>
     <script src="public/libs/timbre.min.js"></script>
-    <script src="public/libs/keyboard.js"></script>
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
     <link rel="stylesheet" type="text/css" href="public/css/container.css">
-  </head>
-  <body>
+</head>
 
+<body>
+    <h1>SaySong</h1>
     <div class="container">
       <div id='messagesDiv'></div>
+      <form>
       <div class="row"></div>
-      <div class="col-lg-6">
+      <div class="name-input col-lg-2">
         <input class="form-control" type='text' id='nameInput' placeholder='Name'>
       </div>
       <div class="col-lg-6">
-	    <input class="form-control" type='textfield' id='messageInput' placeholder='Message'>
+	    <input class="form-control" type='textbox' id='messageInput' placeholder='Message'>
       </div>
-
+      <div class="fa fa-music col-lg-1"></div>
+    </form>
     </div>
-
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="public/js/firebase.js"></script>
-    <script src="public/js/splitter.js"></script>
-
     <script src="public/js/three.min.js"></script>
     <script src="public/js/visualization.js"></script>
     <script src="public/js/app.js"></script>
     <script src="public/js/changer.js"></script>
     <button id="play">Play All</button>
-  </body>
+</body>
+
 </html>
+

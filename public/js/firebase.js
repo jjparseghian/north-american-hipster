@@ -15,7 +15,7 @@ displayChatMessage(message.name, message.text);
       });
       function displayChatMessage(name, text) {
         $('<div class="message row"/>')
-          .prepend('<em class="col-lg-7">'+text+'</em>')
+          .prepend('<p class="col-lg-7">'+text+'</p>')
           .prepend($('<em class="name col-lg-2 col-lg-offset-1"/>')
           .text(name+': '))
           .append('<i class="fa fa-music col-lg-1"></i>')
@@ -23,4 +23,9 @@ displayChatMessage(message.name, message.text);
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
       // setInterval(function() {firebase.remove()}, 300000)
+      setTimeout(function(){
+      $('i').on('click', function(){
+        console.log($(this).parent('div').children('p').text());
+      });
+      }, 1000)
 });

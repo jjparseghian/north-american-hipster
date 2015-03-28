@@ -1,3 +1,7 @@
+body{
+	font-family: 'Droid Sans', sans-serif;
+}
+
 .fa{
   border: 3px solid black;
   width: 50px;
@@ -9,5 +13,13 @@
 }
 
 .row{
-	  margin-top: 20px;
+	  margin: 20px 0 ;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5em;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
 }
