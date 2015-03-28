@@ -23,3 +23,13 @@ h1{
 	background-color: #000;
 	text-align: center;
 }
+
+#letter-view {
+  margin: 10px;
+  border: solid black .1em;
+  padding: .5em;
+  text-align: center;
+  border-radius: 1em;
+  font-size: 4em;
+  min-height: 3em;
+}
