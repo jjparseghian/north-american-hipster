@@ -30,13 +30,15 @@ $(document).ready(function() {
         $('i').on('click', function() {
             var $clickedText = $(this).parent('div').children('p').text()
             frequencyArray = strToFreqs($clickedText)
-            counter = 0
+            counter = 0;
             frequencyArray.forEach(function(element) {
                 setTimeout(function() {
-                    T("sin", {
-                        freq: element
-                    }).play();
-                }, 1000 * counter)
+                 a = T('sin', {freq: element})
+                 a.play();
+                }, 500 * counter)
+                 setTimeout(function(){
+                  a.pause();
+                }, 600 * counter);
                 counter++;
             });
 
