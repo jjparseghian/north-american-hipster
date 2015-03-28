@@ -16,11 +16,11 @@ displayChatMessage(message.name, message.text);
       function displayChatMessage(name, text) {
         $('<div class="message row"/>')
           .prepend('<em class="col-lg-7">'+text+'</em>')
-          .prepend($('<em class="col-lg-2 col-lg-offset-1"/>')
+          .prepend($('<em class="name col-lg-2 col-lg-offset-1"/>')
           .text(name+': '))
           .append('<i class="fa fa-music col-lg-1"></i>')
           .appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
-      setInterval(function() {firebase.remove()}, 300000)
+      // setInterval(function() {firebase.remove()}, 300000)
 });
