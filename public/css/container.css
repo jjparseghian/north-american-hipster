@@ -1,0 +1,12 @@
+  #messagesDiv{
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+#messagesDiv em{
+	font-size: 20px;
+}
+
+#messagesDiv .name{
+	text-transform: uppercase;
+}
