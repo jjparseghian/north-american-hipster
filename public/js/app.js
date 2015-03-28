@@ -1,10 +1,14 @@
 $(document).ready(function(){
-	$('#messageInput').on('submit', function(){
-	var lastInput = $('#messagesDiv').children().last()
+	setTimeout(function(){
 
-	console.log(strToFreqs(lastInput));
-		
-	})
+	}, 500)
+	// $('#messageInput').on('submit', function(){
+	// var lastInput = $('#messagesDiv').children().last()
+	$('.fa-music').on('click', function(){
+		console.log("this");
+	}, 500)
+	// console.log(strToFreqs(lastInput));
+
 
 	// $('#messageInput').on('submit', function(){
 	// 	console.log("hello");
