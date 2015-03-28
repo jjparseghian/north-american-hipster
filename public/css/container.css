@@ -14,3 +14,9 @@
 .name-input{
 margin-left: 5%
 }
+
+#play{
+	text-align: center;
+	margin: 0 auto;
+	/*width: 100%;*/
+}
