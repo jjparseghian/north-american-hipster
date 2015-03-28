@@ -11,12 +11,17 @@
 #messagesDiv .name{
 	text-transform: uppercase;
 }
-.name-input{
-margin-left: 5%
-}
 
 #play{
-	text-align: center;
-	margin: 0 auto;
-	/*width: 100%;*/
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
+}
+p{
+	font-size: 1.2em;
+}
+
+i:hover{
+	background-color: #000;
+	color: #fff;
 }
