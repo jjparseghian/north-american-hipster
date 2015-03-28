@@ -16,8 +16,21 @@ displayChatMessage(message.name, message.text);
       function displayChatMessage(name, text) {
         $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
-        $('<em/>').prepend('<i class="fa fa-music"></i>');
+        $().append('<i class="fa fa-music"></i>');
       };
+
+function singleLineSinger(){
+
+}
+
+$(i).on(click, function(event){
+  console.log(event)
+})
+
+function lineSplit(object){
+  var letters = object.message.split("")
+  return letters
+}
 
 
 });
